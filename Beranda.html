@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dist-5/Bootstrap-5/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="font/bootstrap-icons.css">
+
+    <!-- CSS -->
+    <style>
+      *::before {
+box-sizing: unset;
+      }
+      .bg-custom {
+        background: #87a2ff;
+      }
+      .btn-floating {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+      }
+      .bg-about {
+        background: #7e7f85;
+      }
+      .bg-proyek {
+        background: #87a2ff;
+      }
+      .bg-pengalaman {
+        background: #7e7f85;
+      }
+      .card {
+        height: 350px !important;
+      }
+      .bg-contact {
+        background: #87a2ff;
+      }
+      .bg-footer {
+        background: #000000;
+        text-align: center;
+        color: #fff;
+        /* padding: 9px; */
+        padding-top: 8px;
+        /* padding-bottom: 5px; */
+        height: 40px;
+      }
+
+      
+      
+    </style>
+    <!-- End CSS -->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Portofolio</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Tentang-Saya">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyek">Proyek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pengalaman">Pengalaman Dan Keahlian</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Beranda-->
+    <section class="bg-custom" id="beranda">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="rounded-circle shadow mt-2" src="Foto/Rafael 2.jpg" alt="Rafael" width="250" />
+          </div>
+          <div class="col-sm-8">
+            <h1 class="display-5 fw-bold">Rafael Shaqr Al Farras</h1>
+            <p class="fs-2 text">
+              Hai, Saya adalah murid dari Sekolah SMK Nusantara 1 Kota Tangerang</p>
+            <a href="Dokumen/CV RAFAEL SHAQR AL FARRAS.pdf" target="_blank" class="btn btn-primary">Download CV Saya</a>
+          </div>
+        </div>
+      </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -2 1440 320"><path fill="#7e7f85" fill-opacity="1" d="M0,288L30,277.3C60,267,120,245,180,213.3C240,181,300,139,360,133.3C420,128,480,160,540,165.3C600,171,660,149,720,154.7C780,160,840,192,900,192C960,192,1020,160,1080,165.3C1140,171,1200,213,1260,213.3C1320,213,1380,171,1410,149.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </section>
+    <!--End Beranda-->
+
+    <!-- Tentang Saya-->
+    <section class="bg-about" id="Tentang-Saya">
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="rounded-circle shadow ms-5" src="Foto/Rafael 4.jpg" alt="Rafael" width="250" />
+          </div>
+          <div class="col-sm-8">
+            <h1 class="display-5 fw-bold"> Tentang Saya</h1>
+            <p class="fs-4 text">Nama Saya Rafael Shaqr Al Farras, biasa dipanggil Rafael. Saya Lahir Di Jakarta pada 30 November 2007. Saya pernah bersekolah TK di Al-Ibrah, Sekolah Dasar di SDIP Al-Ijtihad, Sekolah Menengah Pertama di SMPN 15 Kota Tangerang, dan sekarang bersekolah di SMK Nusantara 1 Kota Tangerang. Saya mempunyai keahlian di bidang RPL, seperti membuat database mysql, dan lain-lain.  </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 1440 320"><path fill="#87a2ff" fill-opacity="1" d="M0,96L34.3,122.7C68.6,149,137,203,206,186.7C274.3,171,343,85,411,69.3C480,53,549,107,617,117.3C685.7,128,754,96,823,101.3C891.4,107,960,149,1029,186.7C1097.1,224,1166,256,1234,229.3C1302.9,203,1371,117,1406,74.7L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </section>
+    <!--End Tentang Saya-->
+
+    <!-- Proyek -->
+     <section class="bg-proyek" id="proyek">
+      <div class="container">
+        <div class="text-center mb-4 fw-bold">
+          <h2>Proyek Saya</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 mb-2">
+            <div class="card" style="width: 18rem;">
+              <img src="Foto/CRUD.png" class="card-img-top" alt="CRUD">
+              <div class="card-body">
+                <p class="card-text">Membuat sistem Create, Read, Update, dan Delete (CRUD) menggunakan PHP MYSQL, dengan menggabungkan dengan proyek website Asesment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-2">
+            <div class="card" style="width: 18rem;">
+              <img src="Foto/Matriks Pemjumlahan Dan Pengurangan.png" class="card-img-top" alt="Matriks Pemjumlahan Dan Pengurangan.png">
+              <div class="card-body">
+                <p class="card-text">Membuat sistem hitungan matriks penjumlahan dan pengurangan dengan menggunakan Java di VSCode.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-4">
+            <div class="card" style="width: 18rem;">
+              <img src="Foto/Website Asesment.png" class="card-img-top" alt="Website Asesment">
+              <div class="card-body">
+                <p class="card-text">Membuat Website Asesment dengan menggunakan Bootstrap-5 dan HTML di VSCode.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 1440 320"><path fill="#7e7f85" fill-opacity="1" d="M0,64L15,101.3C30,139,60,213,90,234.7C120,256,150,224,180,218.7C210,213,240,235,270,240C300,245,330,235,360,218.7C390,203,420,181,450,181.3C480,181,510,203,540,176C570,149,600,75,630,53.3C660,32,690,64,720,112C750,160,780,224,810,250.7C840,277,870,267,900,266.7C930,267,960,277,990,245.3C1020,213,1050,139,1080,133.3C1110,128,1140,192,1170,208C1200,224,1230,192,1260,181.3C1290,171,1320,181,1350,176C1380,171,1410,149,1425,138.7L1440,128L1440,320L1425,320C1410,320,1380,320,1350,320C1320,320,1290,320,1260,320C1230,320,1200,320,1170,320C1140,320,1110,320,1080,320C1050,320,1020,320,990,320C960,320,930,320,900,320C870,320,840,320,810,320C780,320,750,320,720,320C690,320,660,320,630,320C600,320,570,320,540,320C510,320,480,320,450,320C420,320,390,320,360,320C330,320,300,320,270,320C240,320,210,320,180,320C150,320,120,320,90,320C60,320,30,320,15,320L0,320Z"></path></svg>
+     </section>
+    <!-- End Proyek -->
+
+    <!-- Pengalaman -->
+     <section class="bg-pengalaman" id="pengalaman">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h1 class="fw-bold">Pengalaman Saya</h1>
+          <p class="fs-4 text">Saya memiliki pengalaman saat kegiatan Asesment sekolah, nama perusahaan Asesment Saya adalah PT Cozy Foodrink, Posisi Saya pada asesment adalah sebagai Manager Opersional yang bertugas untuk mengawasi operasional pada saat penjualan produk. Selain itu, Saya juga pernah membuat sebuah website penjualan Asesment. Saya memiliki sedikit keahlian membuat website menggunakan bootstrap 5. </p>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 mb-2">
+              <img src="Foto/Website Asesment.png" class="card-img-top" alt="CRUD"></img>
+          </div>
+          <div class="col-sm-4 mb-2">
+              <img src="Foto/AS1.jpg" class="card-img-top" alt="CRUD" height="202px"></img>
+          </div>
+          <div class="col-sm-4 mb-2">
+              <img src="Foto/AS2.jpg" class="card-img-top" alt="CRUD" height="202px"></img>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 1440 320"><path fill="#87a2ff" fill-opacity="1" d="M0,288L15,266.7C30,245,60,203,90,202.7C120,203,150,245,180,224C210,203,240,117,270,96C300,75,330,117,360,144C390,171,420,181,450,176C480,171,510,149,540,138.7C570,128,600,128,630,160C660,192,690,256,720,261.3C750,267,780,213,810,176C840,139,870,117,900,133.3C930,149,960,203,990,213.3C1020,224,1050,192,1080,160C1110,128,1140,96,1170,80C1200,64,1230,64,1260,85.3C1290,107,1320,149,1350,165.3C1380,181,1410,171,1425,165.3L1440,160L1440,320L1425,320C1410,320,1380,320,1350,320C1320,320,1290,320,1260,320C1230,320,1200,320,1170,320C1140,320,1110,320,1080,320C1050,320,1020,320,990,320C960,320,930,320,900,320C870,320,840,320,810,320C780,320,750,320,720,320C690,320,660,320,630,320C600,320,570,320,540,320C510,320,480,320,450,320C420,320,390,320,360,320C330,320,300,320,270,320C240,320,210,320,180,320C150,320,120,320,90,320C60,320,30,320,15,320L0,320Z"></path></svg>
+     </section>
+    <!-- End Pengalaman -->
+
+    <!-- Contact -->
+     <div class="bg-contact" id="kontak">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h1 class="fw-bold">Kontak Saya</h1>
+        </div>
+        <div class="mt-5">
+          <div class="d-flex">
+            <i class="bi bi-envelope-at-fill mb-2 mt-1" style="font-size: 45px;"></i>
+            <h2 class="mt-3 ms-2">Email: <a href="mailto:rafaelquenza78@gmail.com" style="text-decoration:none;" >rafaelquenza78@gmail.com</a></h2>
+          </div>
+          <div class="d-flex">
+            <i class="bi bi-whatsapp mb-2 mt-1" style="font-size: 45px;"></i>
+            <h2 class="mt-3 ms-2">Whatsapp: <a href="https://wa.me/+62817838811" target="blank" style="text-decoration:none;">0817-838-811</a></h2>
+          </div>
+          <div class="d-flex">
+            <i class="bi bi-instagram mb-2 mt-1" style="font-size: 45px;"></i>
+            <h2 class="mt-3 ms-2">Instagram: <a href="https://www.instagram.com/rafaelsaf01?igsh=d24zYjBlNDNzbDVx" target="blank" style="text-decoration:none;">@rafaelsaf01</a></h2>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- End Contact -->
+
+     <!-- Footer -->
+      <section class="bg-footer">
+        <footer>
+          <p>Hak Cipta &copy; 2025 <a href="https://rafael-shaqr-al-farras.github.io" target="_blank">Rafael Shaqr Al Farras</a> Hak Cipta Dilindungi.</p>
+       </footer>
+      </section>
+      <!-- End Footer -->
+
+    <button id="tombol_up" class="btn btn-danger btn-lg btn-floating" type="button">UP</button>
+
+    <script src="dist-5/Bootstrap-5/dist/js/bootstrap.bundle.js"></script>
+
+    <script>
+      let tombol_scroll = document.getElementById("tombol_up");
+
+      window.onscroll = function () {
+        scrollfuncition();
+      };
+
+      function scrollfuncition() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          tombol_scroll.style.display = "block";
+        } else {
+          tombol_scroll.style.display = "none";
+        }
+      }
+      tombol_scroll.addEventListener("click", backTop);
+
+      function backTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
